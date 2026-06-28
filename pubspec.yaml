@@ -1,0 +1,67 @@
+name: bharat_problem_solver
+description: AI-powered civic issue reporting platform for India
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_localizations:
+    sdk: flutter
+
+  # State Management
+  flutter_riverpod: ^2.5.1
+
+  # Navigation
+  go_router: ^13.2.0
+
+  # Firebase
+  firebase_core: ^2.31.1
+  firebase_auth: ^4.19.6
+  firebase_messaging: ^14.9.4
+  google_sign_in: ^6.2.1
+
+  # Network
+  dio: ^5.4.3
+
+  # Maps & Location
+  google_maps_flutter: ^2.6.1
+  geolocator: ^11.0.0
+
+  # Image & Camera
+  image_picker: ^1.1.1
+  flutter_image_compress: ^2.2.0
+
+  # UI
+  cached_network_image: ^3.3.1
+  shimmer: ^3.0.0
+  fl_chart: ^0.67.0
+
+  # Storage
+  flutter_secure_storage: ^10.0.0
+
+  shared_preferences: ^2.2.3
+
+ # Utilities
+intl: ^0.20.2
+uuid: ^4.4.0
+speech_to_text: ^7.2.0
+
+cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/lottie/
